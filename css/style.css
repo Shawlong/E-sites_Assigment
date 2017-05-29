@@ -1,0 +1,211 @@
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: 'lato', sans-serif;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6, .cta-green, .cta-white {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+p {
+  line-height: 1.5;
+  margin: 30px;
+}
+
+body {
+  font-size: 16px;
+}
+
+.btn-lg {
+  border-radius: 30px;
+  padding: 8px 30px;
+  font-size: 16px;
+}
+
+.cta-green {
+  color: #fcfcfc;
+  background-color: #53aa4c;
+  border-color: #53aa4c;
+}
+
+.cta-white {
+  color: #53aa4c;
+  border-color: #53aa4c;
+}
+
+.navbar .navbar-default {
+  background-color: none;
+  border-color: none;
+}
+.navbar .navbar-default .navbar-nav {
+  float: none;
+}
+.navbar .navbar-default .navbar-nav ul {
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  color: #191919;
+  margin: 60px 0 60px 0;
+}
+
+.aboutus {
+  background-color: #000533;
+  color: #fcfcfc;
+}
+.aboutus article {
+  padding: 60px 0 0 0;
+}
+.aboutus article h3 {
+  padding: 0 30px;
+}
+.aboutus article .btn {
+  border-color: #53aa4c;
+  color: #53aa4c;
+}
+.aboutus .about-img {
+  margin-top: 60px;
+  height: 50vw;
+  position: relative;
+  background: url("../assets/images/agencyscrap_aboutus.jpeg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media only screen and (min-width: 768px) {
+  p {
+    margin: 45px 60px 45px 60px;
+  }
+
+  .header a {
+    margin: 0 15px 0 0;
+  }
+
+  .aboutus .about-img {
+    margin-top: 0;
+  }
+  .aboutus article h3 {
+    padding: 0 60px;
+  }
+}
+@media (max-width: 990px) {
+  .navbar-header {
+    float: none;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+
+  .navbar-nav {
+    float: none !important;
+    margin: 7.5px -15px;
+  }
+
+  .navbar-nav > li {
+    float: none;
+  }
+
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .aboutus .about-img {
+    height: 60vw;
+  }
+}
+@media (max-width: 1200px) {
+  .navbar-header {
+    float: none;
+  }
+
+  .navbar-left, .navbar-right {
+    float: none !important;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav li {
+    float: none;
+  }
+  .navbar-nav li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .collapse.in {
+    display: block !important;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .navbar {
+    margin: 30px 30px 0 30px;
+  }
+  .navbar .navbar-header {
+    padding: 0 0 0 45px;
+  }
+
+  .header {
+    margin: 120px 0 120px 0;
+  }
+  .header p {
+    margin: 30px 0 60px 0;
+    padding: 0 150px 0 150px;
+  }
+
+  .aboutus article {
+    padding: 90px 30px 30px 30px;
+  }
+  .aboutus .about-img {
+    height: 45vw;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .navbar .navbar-header {
+    padding: 0 0 0 105px;
+  }
+
+  .aboutus {
+    overflow: hidden;
+    height: 50vh;
+  }
+  .aboutus article {
+    padding: 90px;
+  }
+  .aboutus .about-img {
+    height: 50vh;
+  }
+}
