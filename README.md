@@ -1,3 +1,1 @@
-# Tutorial
-
-This is my tutorial repository.
+# E-sites assigment
